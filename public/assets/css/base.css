@@ -561,8 +561,13 @@ ol {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/* background-color: #81918E; */
+				/* background-image: url("../../images/banner.jpg"); */
+				/* background-image: url("https://streamable.com/s/v6uqj/yfdapc") */
+				border:5px dotted red;
+				overflow:hidden;
+				position:relative;
+
 			}
 
 			#main > section.two {
@@ -575,4 +580,13 @@ ol {
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			 #bgvid {
+				 position:absolute;
+				z-index: -99; 
+				width: 100%;
+				border: 5px dotted red;
+				top:0;
+				left:0;
 			}
