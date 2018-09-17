@@ -585,8 +585,20 @@ ol {
 			 #bgvid {
 				 position:absolute;
 				z-index: -99; 
-				width: 100%;
 				border: 5px dotted red;
+				height:100%;
 				top:0;
 				left:0;
 			}
+
+
+				/* @media screen and (max-width: 768px) {
+				#bgvid{
+					width:100%;
+				}
+			}
+			@media screen and (min-width: 767px) {
+				#bigvid {
+					height:100%;
+				}
+			} */
