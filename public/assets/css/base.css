@@ -561,8 +561,13 @@ ol {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/* background-color: #81918E; */
+				/* background-image: url("../../images/banner.jpg"); */
+				/* background-image: url("https://streamable.com/s/v6uqj/yfdapc") */
+				border:5px dotted red;
+				overflow:hidden;
+				position:relative;
+
 			}
 
 			#main > section.two {
@@ -576,3 +581,24 @@ ol {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
+			 #bgvid {
+				 position:absolute;
+				z-index: -99; 
+				border: 5px dotted red;
+				height:100%;
+				top:0;
+				left:0;
+			}
+
+
+				/* @media screen and (max-width: 768px) {
+				#bgvid{
+					width:100%;
+				}
+			}
+			@media screen and (min-width: 767px) {
+				#bigvid {
+					height:100%;
+				}
+			} */
